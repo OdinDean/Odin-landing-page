@@ -1,0 +1,176 @@
+.header {
+    background-color: #1F2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 120px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav div{
+    flex: auto;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.hero-main{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.left-header-content p, ul, footer, .bluebox-desc, .content-bluebox button{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-header-content{
+    width: 400px;
+    min-width: 267px;
+}
+
+.placeholder {
+    height: 230px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+
+}
+.header-button{
+    background-color: #3882F6;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.content{
+    padding-bottom: 100px;
+}
+.information-header{
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.box-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box div{
+    border: 1px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.quote-content{
+    background-color: #E5E7EB;
+    padding-bottom: 100px;
+    padding-top: 123px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.quote-content div{
+    align-self: stretch;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 200px;
+}
+
+.content-bluebox{
+    background-color: #3882F6;
+    display: flex;
+    width: 750px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.content-bluebox button{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    align-self: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.content-bluebox div{
+    flex: auto;
+}
+
+.bluebox-heading, nav div{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.content, .quote-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-content{
+    padding-bottom: 75px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}
